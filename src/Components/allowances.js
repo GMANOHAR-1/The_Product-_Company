@@ -20,18 +20,7 @@ import {  Table, TableHead, TableRow, TableCell, TableBody } from '@mui/material
  
 import EditIcon from '@mui/icons-material/Edit';
 
-const divStyle1 = {
-  position: 'relative',
-  backgroundColor: 'rgb(161, 149, 230)',
-  padding: '9px',
-  marginBottom: '16px',
-  color: 'white',
-  marginLeft: '16.5%',
-  borderRadius: '9px',
-  marginRight: '5px',
-  innerHeight:'max-content'
-
-};
+ 
 const divStyle = {
     position: 'relative',
     backgroundColor: 'rgb(161,149,230)',

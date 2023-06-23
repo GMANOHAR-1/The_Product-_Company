@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route,Routes } from 'react-router-dom';
- import OtherAllowance from './Components/otherallowance';
-import Sidebar from './Components/sidebar';
+ import Sidebar from './Components/sidebar';
  import HomePage from './pages/home';
 import Register from './pages/register';
 

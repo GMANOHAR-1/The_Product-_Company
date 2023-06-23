@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { Table, TableHead, TableRow, TableCell, TableBody } from '@mui/material';
+ import { Table, TableHead, TableRow, TableCell, TableBody } from '@mui/material';
 
 const FormDataTable = ({ formData }) => {
   return (
@@ -14,8 +13,8 @@ const FormDataTable = ({ formData }) => {
       <TableBody>
         {Object.entries(formData).map(([field, value]) => (
           <TableRow key={field}>
-           {value != "" &&  <TableCell style={{ fontSize: '14px' }}>{field}</TableCell>}
-            {value != "" && <TableCell style={{ fontSize: '14px' }}>{value}</TableCell>}
+           {value !== "" &&  <TableCell style={{ fontSize: '14px' }}>{field}</TableCell>}
+            {value !== "" && <TableCell style={{ fontSize: '14px' }}>{value}</TableCell>}
           </TableRow>
         ))}
       </TableBody>
